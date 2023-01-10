@@ -1,17 +1,17 @@
 <template>
   <div class="home">
-    <Index/>
+    <MyIndex />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Index from "@/components/Index.vue";
+import MyIndex from "@/components/MyIndex.vue";
 
 export default {
   name: "HomeView",
   components: {
-    Index,
+    MyIndex,
   },
 };
 </script>
